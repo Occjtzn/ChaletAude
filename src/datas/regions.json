@@ -1,0 +1,32 @@
+[
+  {
+    "id": "x57963",
+    "title": "Citadelles et Châteaux",
+    "imgSrc": "https://projetparent.s3.eu-north-1.amazonaws.com/PhotosRegions/castleCover.webp",
+    "link": "/Castles"
+  },
+  {
+    "id": "x57451",
+    "title": "Pics et Escalades",
+    "imgSrc": "https://projetparent.s3.eu-north-1.amazonaws.com/PhotosRegions/mountCover.webp",
+    "link": "/chateaux"
+  },
+  {
+    "id": "x57762",
+    "title": "Chemins des Abbayes",
+    "imgSrc": "https://projetparent.s3.eu-north-1.amazonaws.com/PhotosRegions/abbayeCover.webp",
+    "link": "/chateaux"
+  },
+  {
+    "id": "x57963",
+    "title": "Plaisirs de l'Eau",
+    "imgSrc": "https://projetparent.s3.eu-north-1.amazonaws.com/PhotosRegions/aquaCover.webp",
+    "link": "/chateaux"
+  },
+  {
+    "id": "x57403",
+    "title": "Côtes Méditerranéennes",
+    "imgSrc": "https://projetparent.s3.eu-north-1.amazonaws.com/PhotosRegions/beachCover.webp",
+    "link": "/chateaux"
+  }
+]

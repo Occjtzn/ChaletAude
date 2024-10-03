@@ -1,0 +1,23 @@
+@import '../../../styles/variables';
+
+.separator-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 60px 0;
+}
+
+.separator-one {
+  width: 50%;
+  height: 4px;
+  background-color: $separator-color;
+  margin-bottom: 10px;
+  border-radius: 2px;
+}
+
+.separator-two {
+  width: 30%;
+  height: 2px;
+  background-color: $separator-color;
+  border-radius: 2px;
+}

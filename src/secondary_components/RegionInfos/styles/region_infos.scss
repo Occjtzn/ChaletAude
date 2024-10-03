@@ -1,0 +1,16 @@
+@import '../../../styles/variables';
+
+.ri-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0 200px 0 200px;
+
+  p {
+    color: $text-color;
+    text-align: center;
+    font-weight: 500;
+    font-size: 14px;
+  }
+}

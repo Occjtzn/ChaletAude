@@ -1,0 +1,67 @@
+.hdr {
+  display: flex;
+  width: 100%;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+
+  .hdr-img-wrapper {
+    position: relative;
+    width: 100%;
+    height: 300px;
+    display: flex;
+    transition: transform 1s ease;
+
+    .hdr-img {
+      position: absolute;
+      width: 100%;
+      height: 500px;
+      object-fit: cover;
+      filter: brightness(65%);
+      opacity: 0;
+      transition: opacity 3s ease;
+
+      &.active {
+        opacity: 1;
+      }
+    }
+  }
+
+  .hdr-title {
+    position: absolute;
+    color: #ffffff;
+    text-shadow: 0px 4px 4px rgb(0, 0, 0);
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 500;
+    z-index: 2;
+    animation: tracking-in-expand 1.5s cubic-bezier(0.215, 0.61, 0.355, 1) both;
+  }
+}
+
+@-webkit-keyframes tracking-in-expand {
+  0% {
+    letter-spacing: -0.5em;
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes tracking-in-expand {
+  0% {
+    letter-spacing: -0.5em;
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    opacity: 1;
+  }
+}

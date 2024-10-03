@@ -1,0 +1,25 @@
+// Variables SCSS
+
+// Couleurs générales
+$primary-color: #d98c5f; // Couleur principale
+$secondary-color: #213a40; // Couleur secondaire
+$accent-color: #d9325e; // Couleur d'accent
+$text-color: #213a40; // Couleur du texte
+
+// Couleurs de la barre de navigation
+$navbar-background-color: #f2b56b46;
+$navbar-logo-hover-color: #4678857c;
+
+// Couleurs des Cards
+$cards-background-color: #213a40;
+$cards-text-color: #f2b56b;
+
+// Couleurs des liens de navigation
+$link-color: $secondary-color; // Couleur des liens de navigation
+$link-hover-color: $accent-color; // Couleur des liens de navigation au survol
+$link-background-hover-color: $navbar-background-color; // Couleur de fond des liens de navigation au survol
+$link-active-color: $accent-color; // Couleur des liens actifs
+
+// Autres
+$box-shadow-light: rgba(0, 0, 0, 0.7); // Ombre légère
+$separator-color: $primary-color; // Couleur des séparateurs

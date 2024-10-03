@@ -1,0 +1,181 @@
+[
+  {
+    "id": "id_0D7F8E9A",
+    "title": "Château de Puivert",
+    "images": [
+      "https://projetparent.s3.eu-north-1.amazonaws.com/PhotosCastles/Puivert1.webp",
+      "https://projetparent.s3.eu-north-1.amazonaws.com/PhotosCastles/Puivert2.webp",
+      "https://projetparent.s3.eu-north-1.amazonaws.com/PhotosCastles/Puivert3.webp"
+    ],
+    "link": "https://chateau-de-puivert.com/",
+    "description": "Puivert, un rêve médiéval où les murs chantent les ballades des troubadours.",
+    "temps": "20min"
+  },
+  {
+    "id": "id_6A1C2E5B",
+    "title": "Puilaurens",
+    "images": [
+      "https://projetparent.s3.eu-north-1.amazonaws.com/PhotosCastles/Puilaurens1.webp",
+      "https://projetparent.s3.eu-north-1.amazonaws.com/PhotosCastles/Puilaurens2.webp",
+      "https://projetparent.s3.eu-north-1.amazonaws.com/PhotosCastles/Puilaurens3.webp"
+    ],
+    "link": "https://www.chateau-puilaurens.com/",
+    "description": "Puilaurens, élégante et discrète, offre des panoramas à couper le souffle.",
+    "temps": "30min"
+  },
+  {
+    "id": "id_9A2C5D8B",
+    "title": "Arques",
+    "images": [
+      "https://projetparent.s3.eu-north-1.amazonaws.com/PhotosCastles/Arques1.webp",
+      "https://projetparent.s3.eu-north-1.amazonaws.com/PhotosCastles/Arques2.webp",
+      "https://projetparent.s3.eu-north-1.amazonaws.com/PhotosCastles/Arques3.webp"
+    ],
+    "link": "https://www.payscathare.org/les-sites/chateau-d-arques",
+    "description": "Arques, un secret murmuré, offre mystère et romantisme.",
+    "temps": "30min"
+  },
+  {
+    "id": "id_2C5E1A9F",
+    "title": "Château d'Usson",
+    "images": [
+      "https://projetparent.s3.eu-north-1.amazonaws.com/PhotosCastles/Usson1.webp",
+      "https://projetparent.s3.eu-north-1.amazonaws.com/PhotosCastles/Usson2.webp"
+    ],
+    "link": "https://www.payscathare.org/les-sites/chateau-d-usson",
+    "description": "Les ruines d'Usson racontent des histoires d'amour et de trahison, baignant dans la lumière dorée.",
+    "temps": "45min"
+  },
+  {
+    "id": "id_9F2E8B1A",
+    "title": "Château de Montségur",
+    "images": [
+      "https://projetparent.s3.eu-north-1.amazonaws.com/PhotosCastles/MontSeg1.webp",
+      "https://projetparent.s3.eu-north-1.amazonaws.com/PhotosCastles/MontSeg2.webp",
+      "https://projetparent.s3.eu-north-1.amazonaws.com/PhotosCastles/MontSeg3.webp"
+    ],
+    "link": "http://www.montsegur.fr/",
+    "description": "Montségur, perché au sommet, incarne le symbole de la bravoure cathare, offrant des vues époustouflantes sur les vallées.",
+    "temps": "50min"
+  },
+  {
+    "id": "id_3A4B6C7D",
+    "title": "Cité de Carcassonne",
+    "images": [
+      "https://projetparent.s3.eu-north-1.amazonaws.com/PhotosCastles/CiteCarca1.webp",
+      "https://projetparent.s3.eu-north-1.amazonaws.com/PhotosCastles/CiteCarca2.webp",
+      "https://projetparent.s3.eu-north-1.amazonaws.com/PhotosCastles/CiteCarca3.webp"
+    ],
+    "link": "https://www.remparts-carcassonne.fr/",
+    "description": "La Cité de Carcassonne, avec ses remparts majestueux, est un joyau médiéval et une sentinelle du passé, évoquant les échos des batailles.",
+    "temps": "1h"
+  },
+  {
+    "id": "id_7B3C8D0A",
+    "title": "Quéribus",
+    "images": [
+      "https://projetparent.s3.eu-north-1.amazonaws.com/PhotosCastles/Queribus1.webp",
+      "https://projetparent.s3.eu-north-1.amazonaws.com/PhotosCastles/Queribus2.webp",
+      "https://projetparent.s3.eu-north-1.amazonaws.com/PhotosCastles/Queribus3.webp"
+    ],
+    "link": "https://www.payscathare.org/les-sites/chateau-de-queribus",
+    "description": "Quéribus, fière forteresse, évoque les batailles épiques et la bravoure des hommes du passé.",
+    "temps": "1h"
+  },
+  {
+    "id": "id_3B5E2A1D",
+    "title": "Château de Roquefixade",
+    "images": [
+      "https://projetparent.s3.eu-north-1.amazonaws.com/PhotosCastles/Roquefixade1.webp",
+      "https://projetparent.s3.eu-north-1.amazonaws.com/PhotosCastles/Roquefixade2.webp",
+      "https://projetparent.s3.eu-north-1.amazonaws.com/PhotosCastles/Roquefixade3.webp"
+    ],
+    "link": "https://www.pyreneescathares.com/decouvrir/sur-la-route-des-chateaux/forteresse-de-roquefixade/",
+    "description": "Roquefixade, ruines suspendues, évoque des époques de gloire et d'honneur.",
+    "temps": "1h"
+  },
+  {
+    "id": "id_5D7C1A3E",
+    "title": "Château de Foix",
+    "images": [
+      "https://projetparent.s3.eu-north-1.amazonaws.com/PhotosCastles/Foix1.webp",
+      "https://projetparent.s3.eu-north-1.amazonaws.com/PhotosCastles/Foix2.webp",
+      "https://projetparent.s3.eu-north-1.amazonaws.com/PhotosCastles/Foix3.webp"
+    ],
+    "link": "https://www.sites-touristiques-ariege.fr/chateau-de-foix/",
+    "description": "Le Château de Foix domine la vallée, ses tours racontant les légendes d'antan et les amours perdus.",
+    "temps": "1h10"
+  },
+  {
+    "id": "id_1E9A6B4F",
+    "title": "Peyrepertuse",
+    "images": [
+      "https://projetparent.s3.eu-north-1.amazonaws.com/PhotosCastles/Peyre1.webp",
+      "https://projetparent.s3.eu-north-1.amazonaws.com/PhotosCastles/Peyre2.webp",
+      "https://projetparent.s3.eu-north-1.amazonaws.com/PhotosCastles/Peyre3.webp"
+    ],
+    "link": "https://www.peyrepertuse.com/",
+    "description": "Peyrepertuse, forteresse cathare, chante les récits de chevaliers et de luttes pour la liberté.",
+    "temps": "1h10"
+  },
+  {
+    "id": "id_0B6A1C4D",
+    "title": "Termes",
+    "images": [
+      "https://projetparent.s3.eu-north-1.amazonaws.com/PhotosCastles/Termes1.webp",
+      "https://projetparent.s3.eu-north-1.amazonaws.com/PhotosCastles/Termes2.webp",
+      "https://projetparent.s3.eu-north-1.amazonaws.com/PhotosCastles/Termes3.webp"
+    ],
+    "link": "https://www.chateau-termes.com/",
+    "description": "Termes, au cœur des montagnes, invite à l'aventure et à la découverte.",
+    "temps": "1h10"
+  },
+  {
+    "id": "id_4C6F1B3E",
+    "title": "Aguilar",
+    "images": [
+      "https://projetparent.s3.eu-north-1.amazonaws.com/PhotosCastles/Aguilar1.webp",
+      "https://projetparent.s3.eu-north-1.amazonaws.com/PhotosCastles/Aguilar2.webp",
+      "https://projetparent.s3.eu-north-1.amazonaws.com/PhotosCastles/Aguilar3.webp"
+    ],
+    "link": "https://www.payscathare.org/les-sites/chateau-d-aguilar",
+    "description": "Aguilar, gardien des cimes, observe la vallée avec sagesse et mémoire.",
+    "temps": "1h20"
+  },
+  {
+    "id": "id_8D2E5B3F",
+    "title": "Saissac",
+    "images": [
+      "https://projetparent.s3.eu-north-1.amazonaws.com/PhotosCastles/Saissac1.webp",
+      "https://projetparent.s3.eu-north-1.amazonaws.com/PhotosCastles/Saissac2.webp",
+      "https://projetparent.s3.eu-north-1.amazonaws.com/PhotosCastles/Saissac3.webp"
+    ],
+    "link": "https://www.payscathare.org/les-sites/chateau-de-saissac",
+    "description": "Saissac, panorama sur la vallée, contemple la nature et l'histoire.",
+    "temps": "1h20"
+  },
+  {
+    "id": "id_5E8F3D1A",
+    "title": "Lastours",
+    "images": [
+      "https://projetparent.s3.eu-north-1.amazonaws.com/PhotosCastles/Lastours1.webp",
+      "https://projetparent.s3.eu-north-1.amazonaws.com/PhotosCastles/Lastours2.webp",
+      "https://projetparent.s3.eu-north-1.amazonaws.com/PhotosCastles/Lastours3.webp"
+    ],
+    "link": "https://www.chateaudelastours.com/",
+    "description": "Lastours, ruines au sommet, témoignent des légendes de bravoure.",
+    "temps": "1h45"
+  },
+  {
+    "id": "id_8F4B3D2E",
+    "title": "Minerve",
+    "images": [
+      "https://projetparent.s3.eu-north-1.amazonaws.com/PhotosCastles/Minerve1.webp",
+      "https://projetparent.s3.eu-north-1.amazonaws.com/PhotosCastles/Minerve2.webp",
+      "https://projetparent.s3.eu-north-1.amazonaws.com/PhotosCastles/Minerve3.webp"
+    ],
+    "link": "Minerve",
+    "description": "Minerve, joyau médiéval, où chaque pierre murmure les récits de bravoure et de foi.",
+    "temps": "1h50"
+  }
+]

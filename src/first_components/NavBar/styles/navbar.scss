@@ -1,0 +1,86 @@
+@import '../../../styles/variables';
+
+.navbar-container {
+  height: 40px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding: 10px 0;
+  top: 0;
+  left: 0;
+  z-index: 3;
+}
+
+.logo-container {
+  position: absolute;
+  padding: 0 0 27% 2%;
+
+  img {
+    height: 150px;
+    transition:
+      transform 0.3s,
+      box-shadow 0.3s;
+
+    &:hover {
+      transform: scale(1.15) rotate(10deg);
+    }
+  }
+}
+
+.nav-container {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 40px;
+  align-items: center;
+
+  p {
+    color: $link-color;
+    font-size: 15px;
+  }
+}
+
+.nav-region,
+.nav-contact,
+.nav-chalet {
+  color: $link-color;
+  font-size: 20px;
+  font-weight: 625;
+  text-decoration: none;
+  cursor: pointer;
+  line-height: 1.426;
+  transition:
+    transform 350ms,
+    color 300ms,
+    background-color 300ms,
+    box-shadow 300ms,
+    opacity 300ms;
+
+  &:hover {
+    animation: growShrinkTilt 1s infinite;
+    color: $link-hover-color;
+    border-radius: 3px;
+    background-color: $link-background-hover-color;
+    box-shadow: 0 2px 5px $box-shadow-light;
+  }
+}
+
+.active {
+  text-decoration: underline;
+  text-underline-offset: 8px;
+  color: $accent-color;
+}
+
+@keyframes growShrinkTilt {
+  0%,
+  100% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(1deg);
+  }
+  75% {
+    transform: rotate(-1deg);
+  }
+}

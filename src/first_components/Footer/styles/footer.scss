@@ -1,0 +1,41 @@
+@import '../../../styles/variables';
+
+.footer-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+  width: 100%;
+  border-top: 5px solid $separator-color;
+
+  p,
+  .nav-footer {
+    color: $text-color;
+    text-align: center;
+    font-weight: 600;
+    font-size: 18px;
+
+    &.nav-footer {
+      color: $accent-color;
+      cursor: pointer;
+
+      &:hover {
+        color: $secondary-color;
+        animation: growShrinkTilt 1s infinite !important;
+      }
+    }
+  }
+}
+
+@keyframes growShrinkTilt {
+  0%,
+  100% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(1deg);
+  }
+  75% {
+    transform: rotate(-1deg);
+  }
+}

@@ -1,0 +1,69 @@
+.cc-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  max-width: 100%;
+  margin: 20px auto;
+}
+
+.card-castle {
+  width: 250px;
+  height: 250px;
+  border-radius: 25px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.548);
+  animation: fadeIn 1s forwards;
+  transition:
+    transform 0.3s,
+    box-shadow 0.3s;
+
+  &:hover {
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.5);
+    transform: scale(1.05) rotate(3deg);
+  }
+
+  .img-castle {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    &:hover {
+      transform: scale(1) rotate(3deg);
+    }
+  }
+
+  .title-castle {
+    position: absolute;
+    text-align: center;
+    bottom: 20px;
+    left: 20px;
+    right: 20px;
+    background-color: #000000b2;
+    color: #a65a17;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 5px;
+    border-radius: 5px;
+  }
+}
+.castles-time {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  img {
+    display: flex;
+    width: 30px;
+    height: 30px;
+  }
+  h2 {
+    font-size: 15px;
+  }
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
