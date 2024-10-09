@@ -1,5 +1,5 @@
-import React from 'react'; // Garde uniquement React ici
-import { NavLink } from 'react-router-dom'; // Importation correcte de NavLink
+import React from 'react';
+import { NavLink } from 'react-router-dom';
 import RegionDatas from '../../datas/regions.json';
 import './styles/cards-regions.scss';
 

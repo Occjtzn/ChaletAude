@@ -21,7 +21,7 @@ export const Header = ({ typeOfCarousel }) => {
         ? [HeaderRegion1, HeaderRegion2, HeaderRegion3, HeaderRegion4]
         : typeOfCarousel === 'troisieme'
           ? [HeaderCastle1, HeaderCastle2]
-          : [];
+          : null;
 
   const [index, setIndex] = useState(0);
   const totalImages = images.length;
@@ -47,7 +47,6 @@ export const Header = ({ typeOfCarousel }) => {
           />
         ))}
       </div>
-      {/** Faire hook personnalisé pour le titre */}
       <h2 className="hdr-title">{title}</h2>
     </div>
   );

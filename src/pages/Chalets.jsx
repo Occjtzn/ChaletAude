@@ -8,7 +8,7 @@ import { useEffect } from 'react';
 export const Chalet = () => {
   const { id } = useParams();
   const navigate = useNavigate();
-  const chalet = Chalets.find((chalet) => chalet.id === id); // Utiliser 'Chalets'
+  const chalet = Chalets.find((chalet) => chalet.id === id);
 
   useEffect(() => {
     if (!chalet) {
@@ -19,10 +19,9 @@ export const Chalet = () => {
   return (
     <>
       <NavBar />
-      {chalet && ( // Vérifier si 'chalet' existe
+      {chalet && (
         <>
           <SlideShow pictures={chalet.pictures} />{' '}
-          {/* Utiliser 'chalet.pictures' */}
         </>
       )}
       <Footer />
