@@ -4,9 +4,9 @@ import { CardsActivities } from '../first_components/CardsActivities/CardsActivi
 import { Header } from '../first_components/Header/Header';
 import { Separator } from '../first_components/Separator/Separator';
 import { InfoPage } from '../first_components/InfoPage/InfoPage';
-import CastleDatas from '../datas/castles.json';
+import MountainsDatas from '../datas/mountains.json';
 
-export const Castles = () => {
+export const Mountains = () => {
   return (
     <>
       <Header typeOfCarousel="troisieme" />
@@ -14,7 +14,7 @@ export const Castles = () => {
       <Separator />
       <InfoPage />
       <Separator />
-      <CardsActivities data={CastleDatas} />
+      <CardsActivities data={MountainsDatas} />
       <Footer />
     </>
   );

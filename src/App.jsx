@@ -4,6 +4,7 @@ import { Chalet } from './pages/Chalets';
 import { ErrorPage } from './first_components/Error/Error';
 import { Regions } from './pages/Regions';
 import { Castles } from './pages/Castles';
+import { Mountains } from './pages/Mountains';
 import './styles/app.scss';
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
         <Route path="/Regions" element={<Regions />} />
         <Route path="/Chalet/:id" element={<Chalet />} />
         <Route path="/Castles" element={<Castles />} />
+        <Route path="/Mountains" element={<Mountains />} />
         <Route path="*" element={<ErrorPage />} />
       </Routes>
     </Router>

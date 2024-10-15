@@ -21,7 +21,7 @@ export const Chalet = () => {
       <NavBar />
       {chalet && (
         <>
-          <SlideShow pictures={chalet.pictures} />{' '}
+          <SlideShow pictures={chalet.pictures} />
         </>
       )}
       <Footer />

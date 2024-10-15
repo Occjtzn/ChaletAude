@@ -1,9 +1,9 @@
 import { Link } from 'react-router-dom';
 import Chalets from '../../datas/chalets.json';
 import { useEffect, useState } from 'react';
-import './styles/cards_container.scss';
+import './cards_chalets.scss';
 
-export const CardsContainer = () => {
+export const CardsChalets = () => {
   const [cards, setCards] = useState([]);
 
   useEffect(() => {

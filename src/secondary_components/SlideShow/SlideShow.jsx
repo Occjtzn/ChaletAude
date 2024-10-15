@@ -4,7 +4,7 @@ import {
   faChevronLeft,
   faChevronRight,
 } from '@fortawesome/free-solid-svg-icons';
-import './styles/slide_show.scss';
+import './slide_show.scss';
 
 export const SlideShow = ({ pictures }) => {
   const [index, setIndex] = useState(0);

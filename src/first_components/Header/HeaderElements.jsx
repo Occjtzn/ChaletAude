@@ -1,6 +1,9 @@
 import { useState, useEffect } from 'react';
+import { Link } from 'react-router-dom';
+import ChaletLogo from '../../assets/pictures/Logo/logo-chalets-aude.webp';
+import './header.scss';
 
-export const useHeaderTitle = (typeOfCarousel) => {
+export const HeaderElements = ({ typeOfCarousel }) => {
   const [title, setTitle] = useState('');
 
   useEffect(() => {
@@ -19,5 +22,12 @@ export const useHeaderTitle = (typeOfCarousel) => {
     }
   }, [typeOfCarousel]);
 
-  return title;
+  return (
+    <div className="logo-elements">
+      <Link to="/" className="logo-link">
+        <img className="logo-img" src={ChaletLogo} alt="Logo" />
+      </Link>
+      <h2 className="hdr-title">{title}</h2>
+    </div>
+  );
 };

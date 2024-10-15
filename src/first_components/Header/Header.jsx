@@ -7,21 +7,18 @@ import HeaderImage1 from '../../assets/pictures/HeaderImg/home-img.webp';
 import HeaderImage2 from '../../assets/pictures/HeaderImg/home-img2.webp';
 import HeaderCastle1 from '../../assets/pictures/HeaderCastle/HeaderCastle.webp';
 import HeaderCastle2 from '../../assets/pictures/HeaderCastle/HeaderCastle2.webp';
-import { useHeaderTitle } from '../../Hooks/HeaderTitle';
-
-import './styles/header.scss';
+import { HeaderElements } from './HeaderElements';
+import './header.scss';
 
 export const Header = ({ typeOfCarousel }) => {
-  const title = useHeaderTitle(typeOfCarousel);
-
   const images =
     typeOfCarousel === 'premier'
       ? [HeaderImage1, HeaderImage2]
       : typeOfCarousel === 'deuxieme'
-        ? [HeaderRegion1, HeaderRegion2, HeaderRegion3, HeaderRegion4]
-        : typeOfCarousel === 'troisieme'
-          ? [HeaderCastle1, HeaderCastle2]
-          : null;
+      ? [HeaderRegion1, HeaderRegion2, HeaderRegion3, HeaderRegion4]
+      : typeOfCarousel === 'troisieme'
+      ? [HeaderCastle1, HeaderCastle2]
+      : null;
 
   const [index, setIndex] = useState(0);
   const totalImages = images.length;
@@ -37,6 +34,9 @@ export const Header = ({ typeOfCarousel }) => {
 
   return (
     <div className="hdr">
+      <div className="hdr-top-elements">
+        <HeaderElements typeOfCarousel={typeOfCarousel} />
+      </div>
       <div className="hdr-img-wrapper">
         {images.map((img, idx) => (
           <img
@@ -47,7 +47,6 @@ export const Header = ({ typeOfCarousel }) => {
           />
         ))}
       </div>
-      <h2 className="hdr-title">{title}</h2>
     </div>
   );
 };

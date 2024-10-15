@@ -1,7 +1,7 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 import RegionDatas from '../../datas/regions.json';
-import './styles/cards-regions.scss';
+import './cards-regions.scss';
 
 export const CardsRegions = () => {
   return (

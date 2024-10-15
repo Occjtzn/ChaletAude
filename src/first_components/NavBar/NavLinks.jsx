@@ -1,7 +1,7 @@
 import { useEffect } from 'react';
-import './styles/navbar.scss';
 import { NavLink } from 'react-router-dom';
 import Chalets from '../../datas/chalets.json';
+import './styles/navbar.scss';
 
 export const NavLinks = () => {
   useEffect(() => {

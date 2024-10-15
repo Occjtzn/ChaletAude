@@ -1,4 +1,4 @@
-@import '../../../styles/variables';
+@import '../../styles/variables';
 
 .card-container {
   display: flex;
@@ -18,9 +18,7 @@
     border-radius: 25px;
     opacity: 1;
     transform: translateY(0);
-    transition:
-      transform 0.3s ease,
-      box-shadow 0.3s ease;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 
     &:hover {
       box-shadow: 0 8px 24px $box-shadow-light;
@@ -43,10 +41,10 @@
     position: absolute;
     text-align: center;
     bottom: 20px;
-    background-color: rgb($cards-background-color, 0.6);
+    background-color: rgb($cards-background-color, 0.8);
     color: $cards-text-color;
-    font-size: 24px;
-    font-weight: 800;
+    font-size: 2em;
+    font-weight: 600;
     padding: 5px 0;
     transition: transform 0.3s ease;
   }

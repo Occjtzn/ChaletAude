@@ -1,8 +1,8 @@
 import { NavBar } from '../first_components/NavBar/NavBar';
 import { Header } from '../first_components/Header/Header';
-import { HomeInfo } from '../secondary_components/HomeInformation/HomeInfo';
+import { InfoPage } from '../first_components/InfoPage/InfoPage';
 import { Footer } from '../first_components/Footer/Footer';
-import { CardsContainer } from '../secondary_components/CardsContainer/CardsContainer';
+import { CardsChalets } from '../secondary_components/CardsChalets/CardsChalets';
 import { Separator } from '../first_components/Separator/Separator';
 
 export const Home = () => {
@@ -11,9 +11,9 @@ export const Home = () => {
       <Header typeOfCarousel="premier" />
       <NavBar />
       <Separator />
-      <HomeInfo />
+      <InfoPage />
       <Separator />
-      <CardsContainer />
+      <CardsChalets />
       <Footer />
     </>
   );

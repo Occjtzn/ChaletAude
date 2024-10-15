@@ -28,15 +28,37 @@
     }
   }
 
-  .hdr-title {
+  .hdr-top-elements {
+    display: flex;
+    justify-content: center;
     position: absolute;
-    color: #ffffff;
-    text-shadow: 0px 4px 4px rgb(0, 0, 0);
-    font-size: 45px;
-    font-style: normal;
-    font-weight: 500;
+    width: 100%;
     z-index: 2;
-    animation: tracking-in-expand 1.5s cubic-bezier(0.215, 0.61, 0.355, 1) both;
+
+    .logo-elements {
+      display: flex;
+      align-items: center;
+
+      .logo-link img {
+        width: 200px;
+        transition: transform 0.3s, box-shadow 0.3s;
+        z-index: 3;
+        &:hover {
+          transform: scale(1.15) rotate(10deg);
+        }
+      }
+
+      .hdr-title {
+        color: #ffffff;
+        text-shadow: 0px 4px 4px rgb(0, 0, 0);
+        font-size: 3em;
+        font-style: normal;
+        font-weight: 500;
+        z-index: 2;
+        animation: tracking-in-expand 1.5s cubic-bezier(0.215, 0.61, 0.355, 1)
+          both;
+      }
+    }
   }
 }
 

@@ -1,5 +1,5 @@
 import React from 'react';
-import './styles/error.scss';
+import './error.scss';
 import { NavBar } from '../NavBar/NavBar';
 import { NavLink } from 'react-router-dom';
 import { Footer } from '../Footer/Footer';
