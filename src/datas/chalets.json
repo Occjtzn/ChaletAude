@@ -5,15 +5,16 @@
     "NavLink": "Chalet \"Le Couïrou\" ",
     "cover": "https://projetparent.s3.eu-north-1.amazonaws.com/PhotosCouirou/chalet-couirou.jpg",
     "pictures": [
-      "https://projetparent.s3.eu-north-1.amazonaws.com/PhotosCouirou/couirou-terrasse.jpg",
-      "https://projetparent.s3.eu-north-1.amazonaws.com/PhotosCouirou/CouirouCuisine2.jpg",
-      "https://projetparent.s3.eu-north-1.amazonaws.com/PhotosCouirou/CouirouCuisine3.jpg",
-      "https://projetparent.s3.eu-north-1.amazonaws.com/PhotosCouirou/CouirouSalon4.jpg",
-      "https://projetparent.s3.eu-north-1.amazonaws.com/PhotosCouirou/CouirouSb2.jpg",
-      "https://projetparent.s3.eu-north-1.amazonaws.com/PhotosCouirou/CouirouSb3.jpg"
+      "https://projetparent.s3.eu-north-1.amazonaws.com/PhotosCouirou/chalet-couirou.webp",
+      "https://projetparent.s3.eu-north-1.amazonaws.com/PhotosCouirou/couirou-terrasse.webp",
+      "https://projetparent.s3.eu-north-1.amazonaws.com/PhotosCouirou/CouirouCuisine2.webp",
+      "https://projetparent.s3.eu-north-1.amazonaws.com/PhotosCouirou/CouirouCuisine3.webp",
+      "https://projetparent.s3.eu-north-1.amazonaws.com/PhotosCouirou/CouirouSalon4.webp",
+      "https://projetparent.s3.eu-north-1.amazonaws.com/PhotosCouirou/CouirouSb2.webp",
+      "https://projetparent.s3.eu-north-1.amazonaws.com/PhotosCouirou/CouirouSb3.webp"
     ],
     "description": "Découvrez Le Couïrou, un chalet inspiré par la montagne parfait pour un séjour relaxant, offrant tout le confort moderne dans un cadre paisible et naturel.",
-    "equipments": [
+    "equipements": [
       "Cuisine équipée",
       "TV",
       "WIFI",
@@ -21,7 +22,14 @@
       "Salle d'eau avec WC",
       "Lave-linge"
     ],
-    "exterieurs": ["Terrasse couverte", "Salon de jardin", "Parking individuel"]
+    "exterieurs": [
+      "Terrasse couverte",
+      "Salon de jardin",
+      "Parking individuel"
+    ],
+    "arrivee": "16H30",
+    "depart": "11H",
+    "tarif": "410€"
   },
   {
     "id": "c67aZ52",
@@ -37,21 +45,22 @@
       "https://projetparent.s3.eu-north-1.amazonaws.com/PhotosCapio/Chambre1.webp",
       "https://projetparent.s3.eu-north-1.amazonaws.com/PhotosCapio/SdB1.webp"
     ],
-    "description": "Profitez du charme de la vie parisienne dans un magnifique appartement. A 3 minutes à pied du Canl Saint Martin, vous serez proche des transports, mais également de nombreux commerces. L'appartement est tout équipé, et possède également un parking pour ceux qui souhaitent se déplacer en voiture.",
-    "host": {
-      "name": "Della Case",
-      "picture": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/profile-picture-1.jpg"
-    },
-    "rating": "4",
-    "location": "Ile de France - Paris 10e",
-    "equipments": [
-      "Parking",
-      "Sèche Cheveux",
-      "Machine à laver",
-      "Wi-fi",
+    "description": "Le Capio, refuge authentique en montagne, marie charme rustique et confort moderne pour un séjour relaxant au cœur d’un écrin naturel.",
+    "equipements": [
       "Cuisine équipée",
-      "Télévision"
+      "TV",
+      "WIFI",
+      "Un lit double",
+      "Salle d'eau avec WC",
+      "Lave-linge"
     ],
-    "tags": ["Canal Saint Martin", "République", "Appartement"]
+    "exterieurs": [
+      "Terrasse couverte",
+      "Salon de jardin",
+      "Parking individuel"
+    ],
+    "arrivee": "16H30",
+    "depart": "11H",
+    "tarif": "320€"
   }
 ]

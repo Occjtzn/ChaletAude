@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
   faChevronLeft,
@@ -10,6 +10,13 @@ export const SlideShow = ({ pictures }) => {
   const [index, setIndex] = useState(0);
   const totalPictures = pictures.length;
 
+  useEffect(() => {
+    pictures.forEach((src) => {
+      const img = new Image();
+      img.src = src;
+    });
+  }, [pictures]);
+
   const nextSlide = () => {
     setIndex((prevIndex) => (prevIndex + 1) % totalPictures);
   };
@@ -20,19 +27,29 @@ export const SlideShow = ({ pictures }) => {
 
   return (
     <div className="slide-show">
+      <div className="slide-container">
+        {pictures.map((pic, i) => (
+          <div
+            key={i}
+            className={`slide ${i === index ? 'active' : ''}`}
+            style={{ backgroundImage: `url(${pic})` }}
+          />
+        ))}
+      </div>
       <button className="prev-button" onClick={prevSlide}>
-        <FontAwesomeIcon className="icon" icon={faChevronLeft} size="8x" />
+        <FontAwesomeIcon className="icon" icon={faChevronLeft} size="2x" />
       </button>
-      <img
-        src={pictures[index]}
-        alt={`Slide ${index + 1}`}
-        className="slide-img"
-      />
       <button className="next-button" onClick={nextSlide}>
-        <FontAwesomeIcon className="icon" icon={faChevronRight} size="8x" />
+        <FontAwesomeIcon className="icon" icon={faChevronRight} size="2x" />
       </button>
-      <div className="slide-count">
-        {index + 1} / {totalPictures}
+      <div className="slide-indicators">
+        {pictures.map((_, i) => (
+          <span
+            key={i}
+            className={`indicator ${i === index ? 'active' : ''}`}
+            onClick={() => setIndex(i)}
+          />
+        ))}
       </div>
     </div>
   );

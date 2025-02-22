@@ -13,7 +13,7 @@ export const CardsActivities = ({ data }) => {
   );
 };
 
-const Card = ({ title, images, link, temps }) => {
+const Card = ({ id, title, images, temps }) => {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
   const [intervalId, setIntervalId] = useState(null);
 
@@ -36,7 +36,7 @@ const Card = ({ title, images, link, temps }) => {
         onMouseEnter={startSlideshow}
         onMouseLeave={stopSlideshow}
       >
-        <NavLink className="nav-card">
+        <NavLink to={`/Castles/${id}`} className="nav-card">
           <img
             className="img-activities"
             src={images[currentImageIndex]}

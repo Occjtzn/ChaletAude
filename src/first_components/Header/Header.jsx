@@ -18,6 +18,8 @@ export const Header = ({ typeOfCarousel }) => {
       ? [HeaderRegion1, HeaderRegion2, HeaderRegion3, HeaderRegion4]
       : typeOfCarousel === 'troisieme'
       ? [HeaderCastle1, HeaderCastle2]
+      : typeOfCarousel === 'quatrieme'
+      ? [HeaderImage2]
       : null;
 
   const [index, setIndex] = useState(0);

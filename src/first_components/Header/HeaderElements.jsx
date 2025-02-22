@@ -17,6 +17,9 @@ export const HeaderElements = ({ typeOfCarousel }) => {
       case 'troisieme':
         setTitle("Châteaux et citadelles d'Occitanie");
         break;
+      case 'quatrieme':
+        setTitle('Nos Chalets');
+        break;
       default:
         setTitle('Type de carousel non reconnu');
     }

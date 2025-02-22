@@ -1,0 +1,120 @@
+@import '../../styles/variables';
+
+.informations-chalet {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  color: $text-color;
+
+  .title {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    color: $primary-color;
+    text-align: center;
+  }
+
+  .description {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    text-align: justify;
+  }
+
+  .host {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+
+    p {
+      margin-right: 15px;
+      font-size: 1.1rem;
+
+      strong {
+        color: $accent-color;
+      }
+    }
+
+    .host-picture {
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 2px solid $primary-color;
+    }
+  }
+
+  .equipements,
+  .exterieurs,
+  .tags {
+    margin-bottom: 20px;
+
+    h3 {
+      font-size: 1.3rem;
+      margin-bottom: 10px;
+      color: $secondary-color;
+      border-bottom: 2px solid $separator-color;
+      padding-bottom: 5px;
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+
+      li {
+        background-color: $navbar-background-color;
+        padding: 5px 10px;
+        border-radius: 5px;
+        font-size: 0.9rem;
+        color: $text-color;
+      }
+    }
+  }
+
+  .hour-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+
+    p {
+      font-size: 1rem;
+      margin: 0;
+
+      strong {
+        color: $accent-color;
+      }
+    }
+  }
+
+  .price {
+    font-size: 1.1rem;
+    text-align: center;
+    margin-bottom: 10px;
+
+    strong {
+      color: $accent-color;
+    }
+  }
+}
+
+.reserve-button {
+  display: block;
+  margin: 20px auto 0 auto;
+  padding: 10px 20px;
+  background-color: $primary-color;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+
+  &:hover {
+    background-color: $accent-color;
+  }
+}

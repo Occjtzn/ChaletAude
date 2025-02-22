@@ -27,6 +27,20 @@
   }
 }
 
+.footer-dev-wrapper {
+  text-align: center;
+}
+
+.footer-dev {
+  display: inline-block;
+  color: $text-color;
+  font-weight: 600;
+  font-size: 10px;
+  &:hover {
+    color: $accent-color;
+  }
+}
+
 @keyframes growShrinkTilt {
   0%,
   100% {
