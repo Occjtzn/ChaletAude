@@ -82,6 +82,39 @@ export const InfoPage = () => {
             amoureux de la nature.
           </p>
         );
+      case '/Abbayes':
+        return (
+          <p>
+            Nichées au cœur des paysages authentiques du Sud, les abbayes
+            d’Occitanie racontent une histoire millénaire, imprégnée de
+            spiritualité et de traditions. Témoins d’un patrimoine d’exception,
+            ces édifices majestueux invitent à un voyage hors du temps, où
+            l’architecture romane et gothique se mêle à la quiétude des jardins
+            et cloîtres séculaires.
+            <br />
+            Que vous soyez amateur d’histoire, passionné de culture ou en quête
+            de sérénité, ces lieux emblématiques vous ouvrent leurs portes. De
+            l’Abbaye de Fontfroide à celle de Saint-Papoul, chaque visite est
+            une immersion dans un passé fascinant, où pierres et paysages
+            dialoguent en parfaite harmonie.
+          </p>
+        );
+      case '/Eaux':
+        return (
+          <p>
+            Au cœur des paysages préservés de l’Aude, l’eau façonne des décors
+            d’exception et invite à une multitude d’aventures. Des rivières aux
+            lacs paisibles, chaque site révèle une facette unique, entre
+            sensations fortes et instants de quiétude.
+            <br />
+            Que vous soyez amateur de frissons ou en quête de détente, les
+            activités aquatiques de l’Aude sauront vous séduire. Rafting et
+            canyoning dans les gorges sauvages, canoë au fil des eaux vives,
+            baignade rafraîchissante dans des lacs aux reflets émeraude… Ici, la
+            nature est un terrain de jeu grandeur nature, offrant des
+            expériences aussi variées qu’inoubliables.
+          </p>
+        );
       default:
         return <p>Contenu inexistant pour la page</p>;
     }

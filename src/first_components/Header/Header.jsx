@@ -7,6 +7,15 @@ import HeaderImage1 from '../../assets/pictures/HeaderImg/home-img.webp';
 import HeaderImage2 from '../../assets/pictures/HeaderImg/home-img2.webp';
 import HeaderCastle1 from '../../assets/pictures/HeaderCastle/HeaderCastle.webp';
 import HeaderCastle2 from '../../assets/pictures/HeaderCastle/HeaderCastle2.webp';
+import HeaderAbbaye from '../../assets/pictures/HeaderAbbayes/HeaderAbbaye.webp';
+import HeaderAbbaye2 from '../../assets/pictures/HeaderAbbayes/HeaderAbbaye2.webp';
+import HeaderAbbaye3 from '../../assets/pictures/HeaderAbbayes/HeaderAbbaye3.webp';
+import HeaderMountain from '../../assets/pictures/HeaderMountain/HeaderMountain1.webp';
+import HeaderMountain2 from '../../assets/pictures/HeaderMountain/HeaderMountain2.webp';
+import HeaderMountain3 from '../../assets/pictures/HeaderMountain/HeaderMountain3.webp';
+import HeaderWater from '../../assets/pictures/HeaderWater/Eau1.webp';
+import HeaderWater2 from '../../assets/pictures/HeaderWater/Eau2.webp';
+import HeaderWater3 from '../../assets/pictures/HeaderWater/Eau3.webp';
 import { HeaderElements } from './HeaderElements';
 import './header.scss';
 
@@ -20,6 +29,12 @@ export const Header = ({ typeOfCarousel }) => {
       ? [HeaderCastle1, HeaderCastle2]
       : typeOfCarousel === 'quatrieme'
       ? [HeaderImage2]
+      : typeOfCarousel === 'cinquieme'
+      ? [HeaderAbbaye, HeaderAbbaye2, HeaderAbbaye3]
+      : typeOfCarousel === 'sixieme'
+      ? [HeaderMountain, HeaderMountain2, HeaderMountain3]
+      : typeOfCarousel === 'septieme'
+      ? [HeaderWater, HeaderWater2, HeaderWater3]
       : null;
 
   const [index, setIndex] = useState(0);

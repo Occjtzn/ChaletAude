@@ -7,6 +7,8 @@ import { Regions } from './pages/Regions';
 import { Castles } from './pages/Castles';
 import { Mountains } from './pages/Mountains';
 import { Contact } from './pages/Contact';
+import { Abbayes } from './pages/Abbayes';
+import { Eaux } from './pages/Eaux';
 import './styles/app.scss';
 
 function App() {
@@ -20,6 +22,8 @@ function App() {
         <Route path="/Castles" element={<Castles />} />
         <Route path="/Castles/:id" element={<Castles />} />
         <Route path="/Mountains" element={<Mountains />} />
+        <Route path="/Abbayes" element={<Abbayes />} />
+        <Route path="/Eaux" element={<Eaux />} />
         <Route path="/Contact" element={<Contact />} />
         <Route path="*" element={<ErrorPage />} />
       </Routes>

@@ -2,13 +2,31 @@ import React, { useState, useEffect } from 'react';
 import { useParams, Link } from 'react-router-dom';
 import CastleDatas from '../../datas/castles.json';
 import MountainsDatas from '../../datas/mountains.json';
+import AbbayesDatas from '../../datas/abbayes.json';
+import EauxDatas from '../../datas/eau.json';
 import './activity_details.scss';
 
 export const ActivityDetail = () => {
   const { id } = useParams();
+
+  const activityFromCastles = CastleDatas.find((item) => item.id === id);
+  const activityFromMountains = MountainsDatas.find((item) => item.id === id);
+  const activityFromAbbayes = AbbayesDatas.find((item) => item.id === id);
+  const activityFromEaux = EauxDatas.find((item) => item.id === id);
+
   const activity =
-    CastleDatas.find((item) => item.id === id) ||
-    MountainsDatas.find((item) => item.id === id);
+    activityFromCastles ||
+    activityFromMountains ||
+    activityFromAbbayes ||
+    activityFromEaux;
+
+  const backLink = activityFromCastles
+    ? '/Castles'
+    : activityFromMountains
+    ? '/Mountains'
+    : activityFromAbbayes
+    ? '/Abbayes'
+    : '/';
 
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
 
@@ -28,7 +46,7 @@ export const ActivityDetail = () => {
     return (
       <div className="error-message">
         <h1>❌ Activité non trouvée</h1>
-        <Link to="/Castles" className="back-button">
+        <Link to={backLink} className="back-button">
           ⬅ Retour aux activités
         </Link>
       </div>
@@ -36,38 +54,36 @@ export const ActivityDetail = () => {
   }
 
   return (
-    <>
-      <div className="activity-detail-container">
-        <h1 className="activity-title">{activity.title}</h1>
-        <div className="image-container">
-          <img
-            src={activity.images[currentImageIndex]}
-            alt={activity.title}
-            className="detail-image"
-          />
-        </div>
-        <p className="activity-description">{activity.description}</p>
-        <div className="activity-menus">
-          <p className="activity-time">⏳ Temps estimé : {activity.temps}</p>
-          {activity.mapIframe && (
-            <div
-              className="map-container"
-              dangerouslySetInnerHTML={{ __html: activity.mapIframe }}
-            />
-          )}
-          <a
-            href={activity.link}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="activity-link"
-          >
-            Site Web
-          </a>
-          <Link to="/Castles" className="back-button">
-            ⬅ Retour aux activités
-          </Link>
-        </div>
+    <div className="activity-detail-container">
+      <h1 className="activity-title">{activity.title}</h1>
+      <div className="image-container">
+        <img
+          src={activity.images[currentImageIndex]}
+          alt={activity.title}
+          className="detail-image"
+        />
       </div>
-    </>
+      <p className="activity-description">{activity.description}</p>
+      <div className="activity-menus">
+        <p className="activity-time">⏳ Temps estimé : {activity.temps}</p>
+        {activity.mapIframe && (
+          <div
+            className="map-container"
+            dangerouslySetInnerHTML={{ __html: activity.mapIframe }}
+          />
+        )}
+        <a
+          href={activity.link}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="activity-link"
+        >
+          Site Web
+        </a>
+        <Link to={backLink} className="back-button">
+          ⬅ Retour aux activités
+        </Link>
+      </div>
+    </div>
   );
 };

@@ -1,0 +1,102 @@
+[
+  {
+    "id": "a14058",
+    "title": "Abbaye d'Alet",
+    "images": [
+      "https://projetparent.s3.eu-north-1.amazonaws.com/PhotosAbbayes/AbAlet1.webp",
+      "https://projetparent.s3.eu-north-1.amazonaws.com/PhotosAbbayes/AbAlet2.webp",
+      "https://projetparent.s3.eu-north-1.amazonaws.com/PhotosAbbayes/AbAlet3.webp"
+    ],
+    "link": "https://www.payscathare.org/les-sites/abbaye-d-alet-les-bains",
+    "description": "Alet-les-Bains, entre vestiges sacrés et murmures du temps, une ancienne cathédrale au cœur de la vallée de l'Aude.",
+    "temps": "25 min",
+    "mapIframe": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d93472.70114116155!2d2.1409516766458476!3d42.93566495079443!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e6!4m5!1s0x12afc1aa6dd7a035%3A0x164e91b95d2e49a8!2s29%20Avenue%20de%20Marides%2C%20Quillan!3m2!1d42.8815806!2d2.1881111!4m5!1s0x12afc587a70f45ab%3A0x7e4f2273403eab64!2sabbaye%20d'Alet!3m2!1d42.9960361!2d2.2554024999999998!5e0!3m2!1sfr!2sfr!4v1740308801288!5m2!1sfr!2sfr\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>"
+  },
+  {
+    "id": "a14089",
+    "title": "Abbaye de Saint Hilaire",
+    "images": [
+      "https://projetparent.s3.eu-north-1.amazonaws.com/PhotosAbbayes/AbStHilaire1.webp",
+      "https://projetparent.s3.eu-north-1.amazonaws.com/PhotosAbbayes/AbStHilaire2.webp"
+    ],
+    "link": "https://www.payscathare.org/les-sites/abbaye-de-saint-hilaire",
+    "description": "Saint-Hilaire, berceau de la blanquette et joyau monastique, abritant le célèbre sarcophage du maître de Cabestany",
+    "temps": "45 min",
+    "mapIframe": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d186751.17519083852!2d2.086825934554659!3d42.99960592644847!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e6!4m5!1s0x12afc1aa6dd7a035%3A0x164e91b95d2e49a8!2s29%20Avenue%20de%20Marides%2C%20Quillan!3m2!1d42.8815806!2d2.1881111!4m5!1s0x12afd20cb4f56e17%3A0xcfc89dcc291f5c70!2sAbbaye%20de%20Saint-Hilaire%2C%20n4%20Rue%20de%20la%20Mairie%2C%2011250%20Saint-Hilaire!3m2!1d43.093227!2d2.308389!5e0!3m2!1sfr!2sfr!4v1740309600378!5m2!1sfr!2sfr\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>"
+  },
+  {
+    "id": "a14037",
+    "title": "Abbaye de Rieunette",
+    "images": [
+      "https://projetparent.s3.eu-north-1.amazonaws.com/PhotosAbbayes/AbStMaRi1.webp"
+    ],
+    "link": "http://www.rieunette.org/",
+    "description": "Rieunette, havre de paix au cœur de la nature sauvage, un monastère encore habité propice au recueillement.",
+    "temps": "55 min",
+    "mapIframe": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d186746.71265568264!2d2.128591434836959!3d43.00107412602528!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e6!4m5!1s0x12afc1aa6dd7a035%3A0x164e91b95d2e49a8!2s29%20Avenue%20de%20Marides%2C%20Quillan!3m2!1d42.8815806!2d2.1881111!4m5!1s0x12afd4421bafd173%3A0x6ec48a78c80c60b5!2sAbbaye%20Sainte-Marie%20de%20Rieunette%2C%20Abbaye%20de%20Rieunette%2C%2011250%20Ladern-sur-Lauquet!3m2!1d43.096683299999995!2d2.4019382!5e0!3m2!1sfr!2sfr!4v1740309776510!5m2!1sfr!2sfr\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>"
+  },
+
+  {
+    "id": "a14052",
+    "title": "Abbaye de Saint Papoul",
+    "images": [
+      "https://projetparent.s3.eu-north-1.amazonaws.com/PhotosAbbayes/AbStPapoul1.webp",
+      "https://projetparent.s3.eu-north-1.amazonaws.com/PhotosAbbayes/AbStPapoul2.webp",
+      "https://projetparent.s3.eu-north-1.amazonaws.com/PhotosAbbayes/AbStPapoul3.webp"
+    ],
+    "link": "https://abbaye-saint-papoul.com/",
+    "description": "Saint-Papoul, cathédrale sculptée dans la pierre du temps, où cloître et sculptures témoignent d’un riche passé religieux.",
+    "temps": "1H10",
+    "mapIframe": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d372869.59047497297!2d1.8002055206850054!3d43.10359702485366!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e6!4m5!1s0x12afc1aa6dd7a035%3A0x164e91b95d2e49a8!2s29%20Avenue%20de%20Marides%2C%20Quillan!3m2!1d42.8815806!2d2.1881111!4m5!1s0x12ae500af09ee5e7%3A0xf0949b29c0e32fb0!2sAbbaye-Cath%C3%A9drale%20de%20Saint-Papoul%2C%205%20Pl.%20Mgr%20de%20Langle%2C%2011400%20Saint-Papoul!3m2!1d43.330569499999996!2d2.0340892!5e0!3m2!1sfr!2sfr!4v1740309920056!5m2!1sfr!2sfr\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>"
+  },
+  {
+    "id": "a14018",
+    "title": "Abbaye de Villelongue",
+    "images": [
+      "https://projetparent.s3.eu-north-1.amazonaws.com/PhotosAbbayes/AbVillelongue1.webp",
+      "https://projetparent.s3.eu-north-1.amazonaws.com/PhotosAbbayes/AbVillelongue2.webp",
+      "https://projetparent.s3.eu-north-1.amazonaws.com/PhotosAbbayes/AbVillelongue3.webp"
+    ],
+    "link": "https://www.abbaye-de-villelongue.com/",
+    "description": "Villelongue, un cloître romantique entre nature et vestiges gothiques, empreint de mystère et de sérénité.",
+    "temps": "1H10",
+    "mapIframe": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d372928.1879589391!2d1.8770991628126348!3d43.09397528538973!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e6!4m5!1s0x12afc1aa6dd7a035%3A0x164e91b95d2e49a8!2s29%20Avenue%20de%20Marides%2C%20Quillan!3m2!1d42.8815806!2d2.1881111!4m5!1s0x12ae378b92b6f777%3A0x3f0d799a92958d48!2sAbbaye%20de%20Villelongue%2C%20Villelongue%2C%2011170%20Saint-Martin-le-Vieil!3m2!1d43.305211299999996!2d2.1666963!5e0!3m2!1sfr!2sfr!4v1740310043016!5m2!1sfr!2sfr\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>"
+  },
+  {
+    "id": "a14073",
+    "title": "Abbayes de Caunes",
+    "images": [
+      "https://projetparent.s3.eu-north-1.amazonaws.com/PhotosAbbayes/AbCaunes1.webp",
+      "https://projetparent.s3.eu-north-1.amazonaws.com/PhotosAbbayes/AbCaunes2.webp"
+    ],
+    "link": "https://www.payscathare.org/les-sites/abbaye-de-caunes-minervois",
+    "description": "Caunes-Minervois, entre marbre rouge et héritage monastique, un joyau architectural mêlant art roman et gothique.",
+    "temps": "1H15",
+    "mapIframe": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d372881.0970387401!2d1.9899368191391662!3d43.10170777691824!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e6!4m5!1s0x12afc1aa6dd7a035%3A0x164e91b95d2e49a8!2s29%20Avenue%20de%20Marides%2C%20Quillan!3m2!1d42.8815806!2d2.1881111!4m5!1s0x12b1d9917be4b8fb%3A0x4042c91d90fad548!2sAbbaye%20de%20Caunes-Minervois%2C%20Pl.%20de%20l'Église%2C%2011160%20Caunes-Minervois!3m2!1d43.3261488!2d2.5268362!5e0!3m2!1sfr!2sfr!4v1740309132466!5m2!1sfr!2sfr\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>"
+  },
+  {
+    "id": "a14054",
+    "title": "Abbaye de Lagrasse",
+    "images": [
+      "https://projetparent.s3.eu-north-1.amazonaws.com/PhotosAbbayes/AbLagrasse1.webp",
+      "https://projetparent.s3.eu-north-1.amazonaws.com/PhotosAbbayes/AbLagrasse2.webp"
+    ],
+    "link": "https://www.lagrasse.org/",
+    "description": "Lagrasse, entre pierres séculaires et art de vivre occitan, une abbaye nichée dans l’un des Plus Beaux Villages de France.",
+    "temps": "1H15",
+    "mapIframe": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d186797.70566243865!2d2.249171231610986!3d42.98429473088028!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e6!4m5!1s0x12afc1aa6dd7a035%3A0x164e91b95d2e49a8!2s29%20Avenue%20de%20Marides%2C%20Quillan!3m2!1d42.8815806!2d2.1881111!4m5!1s0x12b02d8a2f8f2d5b%3A0xabedd82e0452c8a2!2sAbbaye%20Canoniale%20Sainte-Marie%20de%20Lagrasse%2C%206%20Rive%20Gauche%2C%2011220%20Lagrasse!3m2!1d43.0905669!2d2.6170994!5e0!3m2!1sfr!2sfr!4v1740309473689!5m2!1sfr!2sfr\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>"
+  },
+  {
+    "id": "a14021",
+    "title": "Abbaye de Fontfroide",
+    "images": [
+      "https://projetparent.s3.eu-north-1.amazonaws.com/PhotosAbbayes/AbFontfroide1.webp",
+      "https://projetparent.s3.eu-north-1.amazonaws.com/PhotosAbbayes/AbFontfroide2.webp",
+      "https://projetparent.s3.eu-north-1.amazonaws.com/PhotosAbbayes/AbFontfroide3.webp"
+    ],
+    "link": "https://www.fontfroide.com/",
+    "description": "Fontfroide, un joyau cistercien entre vignes et cloître lumineux, où l’histoire se mêle à la sérénité des jardins.",
+    "temps": "1H29",
+    "mapIframe": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d373257.64085292304!2d2.2117876685490647!3d43.03984674565652!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e6!4m5!1s0x12afc1aa6dd7a035%3A0x164e91b95d2e49a8!2s29%20Avenue%20de%20Marides%2C%20Quillan!3m2!1d42.8815806!2d2.1881111!4m5!1s0x12b04d27923b04c5%3A0x18df7e159c120fca!2sAbbaye%20de%20Fontfroide%2C%20RD%20613%20Chem.%20de%20Fontfroide%2C%2011100%20Narbonne!3m2!1d43.1275303!2d2.8986625999999998!5e0!3m2!1sfr!2sfr!4v1740309379453!5m2!1sfr!2sfr\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>"
+  }
+]

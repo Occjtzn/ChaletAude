@@ -29,7 +29,7 @@
     ],
     "arrivee": "16H30",
     "depart": "11H",
-    "tarif": "410€"
+    "tarif": "320€ TTC"
   },
   {
     "id": "c67aZ52",
@@ -61,6 +61,6 @@
     ],
     "arrivee": "16H30",
     "depart": "11H",
-    "tarif": "320€"
+    "tarif": "410€ TTC"
   }
 ]

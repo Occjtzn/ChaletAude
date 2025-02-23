@@ -6,13 +6,14 @@ import { Header } from '../first_components/Header/Header';
 import { Separator } from '../first_components/Separator/Separator';
 import { InfoPage } from '../first_components/InfoPage/InfoPage';
 import { ActivityDetail } from '../first_components/ActivityDetails/ActivityDetails';
-import MountainsDatas from '../datas/mountains.json';
+import EauDatas from '../datas/eau.json';
 
-export const Mountains = () => {
+export const Eaux = () => {
   const { id } = useParams();
+
   return (
     <>
-      <Header typeOfCarousel="sixieme" />
+      <Header typeOfCarousel="septieme" />
       <NavBar />
       <Separator />
       {id ? (
@@ -21,7 +22,7 @@ export const Mountains = () => {
         <>
           <InfoPage />
           <Separator />
-          <CardsActivities data={MountainsDatas} />
+          <CardsActivities data={EauDatas} />
         </>
       )}
       <Footer />

@@ -20,6 +20,15 @@ export const HeaderElements = ({ typeOfCarousel }) => {
       case 'quatrieme':
         setTitle('Nos Chalets');
         break;
+      case 'cinquieme':
+        setTitle('Les Grandes Abbayes du Midi');
+        break;
+      case 'sixieme':
+        setTitle('Les Reliefs d’Occitanie');
+        break;
+      case 'septieme':
+        setTitle('Les Eaux Vives et Lacs de l’Aude');
+        break;
       default:
         setTitle('Type de carousel non reconnu');
     }
