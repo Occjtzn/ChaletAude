@@ -1,0 +1,38 @@
+[
+  {
+    "id": "y47083",
+    "title": "Barcarès",
+    "images": [
+      "https://projetparent.s3.eu-north-1.amazonaws.com/PhotosMer/Barca1.webp",
+      "https://projetparent.s3.eu-north-1.amazonaws.com/PhotosMer/Barca2.webp"
+    ],
+    "link": "https://tourisme-lebarcares.fr/",
+    "description": "Barcarès, entre mer et tradition, laissez-vous séduire par ses plages infinies et son célèbre Lydia, paquebot ensablé devenu emblème du littoral.",
+    "temps": "1H30",
+    "mapIframe": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d374555.16798084194!2d2.2799755441756178!3d42.826130150103964!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e6!4m5!1s0x12afc1aa6dd7a035%3A0x164e91b95d2e49a8!2s29%20Avenue%20de%20Marides%2C%20Quillan!3m2!1d42.8815806!2d2.1881111!4m5!1s0x12b060ba903c3217%3A0x407882116676f00!2sLe%20Barcar%C3%A8s%2C%2066400%20Pyr%C3%A9n%C3%A9es-Orientales%2C%20France!3m2!1d42.78773!2d3.036565!5e0!3m2!1sfr!2sfr!4v1740386205909!5m2!1sfr!2sfr\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>"
+  },
+  {
+    "id": "y47027",
+    "title": "Gruissan",
+    "images": [
+      "https://projetparent.s3.eu-north-1.amazonaws.com/PhotosMer/Gruissan1.webp",
+      "https://projetparent.s3.eu-north-1.amazonaws.com/PhotosMer/Gruissan2.webp"
+    ],
+    "link": "https://www.gruissan-mediterranee.com/",
+    "description": "Gruissan, entre mer et étangs, explorez ses plages dorées et son village circulaire emblématique, dominé par la tour Barberousse.",
+    "temps": "1H40",
+    "mapIframe": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d372985.8107080541!2d2.2676790842456263!3d43.08451191345466!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e6!4m5!1s0x12afc1aa6dd7a035%3A0x164e91b95d2e49a8!2s29%20Avenue%20de%20Marides%2C%20Quillan!3m2!1d42.8815806!2d2.1881111!4m5!1s0x12b05568a27ca6a3%3A0x4103ff809ed37896!2sGruissan%2C%2011430!3m2!1d43.107051999999996!2d3.086181!5e0!3m2!1sfr!2sfr!4v1740386363298!5m2!1sfr!2sfr\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>"
+  },
+  {
+    "id": "y47014",
+    "title": "Collioure",
+    "images": [
+      "https://projetparent.s3.eu-north-1.amazonaws.com/PhotosMer/Collioure1.webp",
+      "https://projetparent.s3.eu-north-1.amazonaws.com/PhotosMer/Collioure2.webp"
+    ],
+    "link": "https://www.tourisme-collioure.com/",
+    "description": "Collioure, joyau catalan, laissez-vous charmer par ses ruelles colorées, son célèbre château royal et son port baigné de lumière.",
+    "temps": "1H45",
+    "mapIframe": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d375326.1729836332!2d2.303812840527444!3d42.69872921430422!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e6!4m5!1s0x12afc1aa6dd7a035%3A0x164e91b95d2e49a8!2s29%20Avenue%20de%20Marides%2C%20Quillan!3m2!1d42.8815806!2d2.1881111!4m5!1s0x12b07f95291fde8d%3A0x91f56d4265317420!2sCollioure!3m2!1d42.526751999999995!2d3.084631!5e0!3m2!1sfr!2sfr!4v1740386421178!5m2!1sfr!2sfr\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>"
+  }
+]

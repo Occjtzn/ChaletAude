@@ -29,6 +29,9 @@ export const HeaderElements = ({ typeOfCarousel }) => {
       case 'septieme':
         setTitle('Les Eaux Vives et Lacs de l’Aude');
         break;
+      case 'huitieme':
+        setTitle('Le soleil et la douceur des vagues occitanes');
+        break;
       default:
         setTitle('Type de carousel non reconnu');
     }

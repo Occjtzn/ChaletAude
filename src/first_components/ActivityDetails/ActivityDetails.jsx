@@ -4,6 +4,7 @@ import CastleDatas from '../../datas/castles.json';
 import MountainsDatas from '../../datas/mountains.json';
 import AbbayesDatas from '../../datas/abbayes.json';
 import EauxDatas from '../../datas/eau.json';
+import SeaDatas from '../../datas/sea.json';
 import './activity_details.scss';
 
 export const ActivityDetail = () => {
@@ -13,12 +14,14 @@ export const ActivityDetail = () => {
   const activityFromMountains = MountainsDatas.find((item) => item.id === id);
   const activityFromAbbayes = AbbayesDatas.find((item) => item.id === id);
   const activityFromEaux = EauxDatas.find((item) => item.id === id);
+  const activityFromSea = SeaDatas.find((item) => item.id === id);
 
   const activity =
     activityFromCastles ||
     activityFromMountains ||
     activityFromAbbayes ||
-    activityFromEaux;
+    activityFromEaux ||
+    activityFromSea;
 
   const backLink = activityFromCastles
     ? '/Castles'
@@ -26,6 +29,10 @@ export const ActivityDetail = () => {
     ? '/Mountains'
     : activityFromAbbayes
     ? '/Abbayes'
+    : activityFromEaux
+    ? '/Eaux'
+    : activityFromSea
+    ? '/Mer'
     : '/';
 
   const [currentImageIndex, setCurrentImageIndex] = useState(0);

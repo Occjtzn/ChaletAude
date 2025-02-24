@@ -16,6 +16,8 @@ import HeaderMountain3 from '../../assets/pictures/HeaderMountain/HeaderMountain
 import HeaderWater from '../../assets/pictures/HeaderWater/Eau1.webp';
 import HeaderWater2 from '../../assets/pictures/HeaderWater/Eau2.webp';
 import HeaderWater3 from '../../assets/pictures/HeaderWater/Eau3.webp';
+import HeaderSea from '../../assets/pictures/HeaderSea/HeaderMer1.webp';
+import HeaderSea2 from '../../assets/pictures/HeaderSea/HeaderMer2.webp';
 import { HeaderElements } from './HeaderElements';
 import './header.scss';
 
@@ -35,6 +37,8 @@ export const Header = ({ typeOfCarousel }) => {
       ? [HeaderMountain, HeaderMountain2, HeaderMountain3]
       : typeOfCarousel === 'septieme'
       ? [HeaderWater, HeaderWater2, HeaderWater3]
+      : typeOfCarousel === 'huitieme'
+      ? [HeaderSea, HeaderSea2]
       : null;
 
   const [index, setIndex] = useState(0);

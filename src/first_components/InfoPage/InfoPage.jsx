@@ -115,6 +115,29 @@ export const InfoPage = () => {
             expériences aussi variées qu’inoubliables.
           </p>
         );
+      case '/Mer':
+        return (
+          <p>
+            Le littoral occitan dévoile un paysage où la mer et la terre se
+            rencontrent dans une harmonie envoûtante. Entre vastes étendues de
+            sable fin, lagunes scintillantes et criques sauvages, chaque rivage
+            offre une invitation à l’évasion et à la contemplation.
+            <br />
+            Laissez-vous porter par la douceur du vent marin, explorez les
+            sentiers côtiers serpentant entre les dunes et les pinèdes, et
+            découvrez une biodiversité exceptionnelle nichée au creux des étangs
+            et des marais. Les ports pittoresques et les villages de pêcheurs
+            racontent l’histoire d’un littoral façonné par les vagues et les
+            traditions, où la culture maritime résonne dans chaque ruelle,
+            chaque marché, chaque assiette de fruits de mer fraîchement pêchés.
+            <br />
+            Ici, le temps semble suspendu entre le bleu infini de la
+            Méditerranée et l’or éclatant des plages baignées de soleil. Que
+            vous soyez amateur de sports nautiques, passionné de nature ou
+            simplement en quête de sérénité, le littoral occitan vous offre un
+            refuge, un instant de liberté, un horizon à perte de vue.
+          </p>
+        );
       default:
         return <p>Contenu inexistant pour la page</p>;
     }

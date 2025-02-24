@@ -9,6 +9,7 @@ import { Mountains } from './pages/Mountains';
 import { Contact } from './pages/Contact';
 import { Abbayes } from './pages/Abbayes';
 import { Eaux } from './pages/Eaux';
+import { Mer } from './pages/Mer';
 import './styles/app.scss';
 
 function App() {
@@ -25,6 +26,7 @@ function App() {
         <Route path="/Abbayes" element={<Abbayes />} />
         <Route path="/Eaux" element={<Eaux />} />
         <Route path="/Contact" element={<Contact />} />
+        <Route path="/Mer" element={<Mer />} />
         <Route path="*" element={<ErrorPage />} />
       </Routes>
     </Router>
