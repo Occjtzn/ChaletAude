@@ -9,7 +9,7 @@ export const Footer = () => {
         <NavLink className="nav-footer" to="mailto:contact@chalets-aude.fr">
           contact@chalets-aude.fr
         </NavLink>
-        <p>04 30 07 35 62</p>
+        <p>+33 4 30 07 35 62</p>
       </div>
       <div className="footer-dev-wrapper">
         <a
