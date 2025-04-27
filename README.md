@@ -1,70 +1,74 @@
-# Getting Started with Create React App
+# Chalet Aude
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Bienvenue dans le projet **Chalet Aude**, une application React créée pour présenter des chalets dans la magnifique région de l'Aude.
 
-## Available Scripts
+## 📅 Description
 
-In the project directory, you can run:
+Ce site vitrine propose une navigation fluide entre plusieurs pages pour explorer les différents chalets disponibles, avec leurs photos, descriptions et informations pratiques.
 
-### `yarn start`
+Il est développé avec **React 17**, utilise des données locales et adopte une architecture de projet claire pour faciliter l'évolution du site.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 📚 Fonctionnalités
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- Pages de présentation pour les chalets
+- Slideshow d’images pour chaque logement
+- Menus déroulants pour afficher les équipements et descriptions
+- Gestion des routes et pages d’erreur personnalisées (404)
+- Composants réutilisables et propres
 
-### `yarn test`
+## 🔧 Installation
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. Clonez le dépôt :
+   ```bash
+   git clone <repository-url>
+   ```
 
-### `yarn build`
+2. Accédez au dossier du projet :
+   ```bash
+   cd ChaletAude
+   ```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+3. Installez les dépendances avec Yarn :
+   ```bash
+   yarn install
+   ```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+4. Lancez le serveur de développement :
+   ```bash
+   yarn start
+   ```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 🔹 Scripts utiles
 
-### `yarn eject`
+- `yarn start` : Lance l'application en mode développement
+- `yarn build` : Génère un build optimisé pour la production
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## 💚 Technologies utilisées
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- [React 17](https://reactjs.org/)
+- [React Router](https://reactrouter.com/)
+- [SASS/SCSS](https://sass-lang.com/) pour les styles
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## 🔖 Architecture du projet
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```
+ChaletAude/
+├── public/
+├── src/
+    ├── assets/              # Images et ressources statiques
+    ├── datas/               # Données locales JSON
+    ├── first_components/    # Composants principaux
+    ├── secondary_components/ # Composants secondaires
+    ├── pages/               # Pages du site
+    ├── styles/              # Feuilles de style (SCSS)
+    ├── App.jsx              # Application principale
+    └── index.js            # Point d'entrée React
+```
 
-## Learn More
+## 📅 Auteur
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Projet réalisé dans un cadre d'apprentissage et de perfectionnement.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+---
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+> Merci pour votre intérêt pour Chalet Aude ! 🌳
