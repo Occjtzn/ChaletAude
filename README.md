@@ -1,74 +1,96 @@
-# Chalet Aude
+# 🏞️ Chalets Aude
 
-Bienvenue dans le projet **Chalet Aude**, une application React créée pour présenter des chalets dans la magnifique région de l'Aude.
+**Chalets Aude** est une application web responsive construite avec **React**, destinée à promouvoir des lieux touristiques de la région de l’Aude, tels que les châteaux, montagnes, abbayes, sources naturelles et sites en bord de mer.
 
-## 📅 Description
-
-Ce site vitrine propose une navigation fluide entre plusieurs pages pour explorer les différents chalets disponibles, avec leurs photos, descriptions et informations pratiques.
-
-Il est développé avec **React 17**, utilise des données locales et adopte une architecture de projet claire pour faciliter l'évolution du site.
-
-## 📚 Fonctionnalités
-
-- Pages de présentation pour les chalets
-- Slideshow d’images pour chaque logement
-- Menus déroulants pour afficher les équipements et descriptions
-- Gestion des routes et pages d’erreur personnalisées (404)
-- Composants réutilisables et propres
-
-## 🔧 Installation
-
-1. Clonez le dépôt :
-   ```bash
-   git clone <https://github.com/Occjtzn/ChaletAude>
-   ```
-
-2. Accédez au dossier du projet :
-   ```bash
-   cd ChaletAude
-   ```
-
-3. Installez les dépendances avec Yarn :
-   ```bash
-   yarn install
-   ```
-
-4. Lancez le serveur de développement :
-   ```bash
-   yarn start
-   ```
-
-## 🔹 Scripts utiles
-
-- `yarn start` : Lance l'application en mode développement
-- `yarn build` : Génère un build optimisé pour la production
-
-## 💚 Technologies utilisées
-
-- [React 17](https://reactjs.org/)
-- [React Router](https://reactrouter.com/)
-- [SASS/SCSS](https://sass-lang.com/) pour les styles
-
-## 🔖 Architecture du projet
-
-```
-ChaletAude/
-├── public/
-├── src/
-    ├── assets/              # Images et ressources statiques
-    ├── datas/               # Données locales JSON
-    ├── first_components/    # Composants principaux
-    ├── secondary_components/ # Composants secondaires
-    ├── pages/               # Pages du site
-    ├── styles/              # Feuilles de style (SCSS)
-    ├── App.jsx              # Application principale
-    └── index.js            # Point d'entrée React
-```
-
-## 📅 Auteur
-
-Projet réalisé dans un cadre d'apprentissage et de perfectionnement.
+L’interface est conçue pour offrir une navigation fluide, immersive et moderne. Chaque lieu est présenté avec un diaporama, une description détaillée, et des informations pratiques pour guider les visiteurs.
 
 ---
 
-> Merci pour votre intérêt pour Chalet Aude ! 🌳
+## 📌 Fonctionnalités principales
+
+- 🔁 **Slideshow automatique** d’images pour chaque activité  
+- 🧭 **Navigation par catégories** : Châteaux, Montagnes, Abbayes, Eaux, Mer  
+- 🌐 **Intégration de carte interactive** via iframe  
+- 📱 **Design responsive**, adapté aux écrans mobiles, tablettes et ordinateurs  
+- 🛠️ **Composants réutilisables** pour faciliter la maintenance  
+- ⚠️ **Page 404 personnalisée** en cas d’erreur de navigation  
+- 📤 **Formulaire de contact** fonctionnel via [EmailJS](https://www.emailjs.com)
+
+---
+
+## ⚙️ Installation
+
+1. Clonez le dépôt :
+
+```bash
+git clone https://github.com/Occjtzn/ChaletAude.git
+```
+
+2. Accédez au dossier du projet :
+
+```bash
+cd ChaletAude
+```
+
+3. Installez les dépendances :
+
+```bash
+yarn install
+```
+
+4. Lancez le projet :
+
+```bash
+yarn start
+```
+
+> 🧪 Vous pouvez aussi exécuter les tests avec `yarn test`.
+
+---
+
+## 🧰 Technologies utilisées
+
+- **React 18**
+- **React Router DOM**
+- **React Modal**
+- **SASS** pour la gestion des styles
+- **EmailJS** pour les messages de contact
+- **FontAwesome** pour les icônes
+- **Prettier + ESLint** pour un code propre et formaté
+
+---
+
+## 📂 Architecture du projet
+
+```
+ChaletAude/
+├── public/                      # Fichiers statiques publics
+├── src/
+│   ├── assets/                  # Images et ressources
+│   ├── datas/                   # Données locales en JSON
+│   ├── first_components/        # Composants principaux (Header, Footer, etc.)
+│   ├── secondary_components/    # Composants secondaires et utilitaires
+│   ├── pages/                   # Pages de navigation
+│   ├── styles/                  # Feuilles de style SCSS
+│   ├── App.jsx                  # Composant racine React
+│   └── index.js                 # Point d’entrée ReactDOM
+├── package.json
+└── README.md
+```
+
+---
+
+## ✅ Scripts disponibles
+
+| Commande         | Description                                   |
+|------------------|-----------------------------------------------|
+| `yarn start`     | Démarre l’application en mode développement   |
+| `yarn build`     | Crée un build optimisé pour la production     |
+| `yarn test`      | Lance les tests unitaires                     |
+| `yarn eject`     | Éjecte la configuration de Create React App   |
+
+---
+
+## 👨‍💻 Auteur
+
+Projet conçu et développé par [Occjtzn](https://github.com/Occjtzn), développeur front-end spécialisé dans la création d’interfaces web modernes, performantes et accessibles.
