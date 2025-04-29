@@ -20,7 +20,7 @@ Il est développé avec **React 17**, utilise des données locales et adopte une
 
 1. Clonez le dépôt :
    ```bash
-   git clone <https://github.com/Occjtzn/ChaletAude/tree/main>
+   git clone <https://github.com/Occjtzn/ChaletAude>
    ```
 
 2. Accédez au dossier du projet :
