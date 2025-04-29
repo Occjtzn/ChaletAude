@@ -23,7 +23,7 @@ export const ActivityDetail = () => {
     activityFromEaux ||
     activityFromSea;
 
-  const backLink = activityFromCastles
+    const backLink = activityFromCastles
     ? '/Castles'
     : activityFromMountains
     ? '/Mountains'
@@ -34,6 +34,7 @@ export const ActivityDetail = () => {
     : activityFromSea
     ? '/Mer'
     : '/';
+  
 
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
 
@@ -79,14 +80,16 @@ export const ActivityDetail = () => {
             dangerouslySetInnerHTML={{ __html: activity.mapIframe }}
           />
         )}
-        <a
-          href={activity.link}
-          target="_blank"
-          rel="noopener noreferrer"
-          className="activity-link"
-        >
-          Site Web
-        </a>
+        {activity.link && (
+          <a
+            href={activity.link}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="activity-link"
+          >
+            🔗 Site Web
+          </a>
+        )}
         <Link to={backLink} className="back-button">
           ⬅ Retour aux activités
         </Link>

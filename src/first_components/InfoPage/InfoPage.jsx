@@ -49,37 +49,16 @@ export const InfoPage = () => {
       case '/Castles':
         return (
           <p>
-            Au cœur des terres mystérieuses de l’Aude, les châteaux cathares se
-            dressent fièrement, témoins d'une histoire fascinante et d'une
-            époque empreinte de légendes. Dominant des paysages spectaculaires,
-            ces forteresses offrent une plongée dans le passé, où chaque pierre
-            raconte la résistance et la foi des Cathares. <br /> Découvrez ces
-            majestueux bastions perchés sur des pitons rocheux, entourés de
-            panoramas à couper le souffle. De Quéribus à Montségur, chaque
-            château offre une aventure unique, mêlant histoire, nature et
-            mystère, le tout dans un écrin de sérénité où l'esprit vagabonde
-            librement à travers les siècles.
+            Au cœur des terres audoises et ariégeoises, ces châteaux, témoins de la répression envers l’hérésie cathare, subirent les assauts des troupes françaises envoyées combattre sur les terres occitanes. Ils servirent ensuite de garde-frontière, l’Espagne étant alors toute proche !
+            <br /> Découvrez ces majestueux bastions perchés sur des pitons rocheux. Ils offrent  une plongée dans le passé, où chaque pierre raconte la résistance des chevaliers occitans et la foi des Cathares.
           </p>
         );
       case '/Mountains':
         return (
           <p>
-            Au cœur des paysages enchanteurs de l’Aude, les montagnes s'élèvent
-            majestueusement, gardiennes d'une nature sauvage et préservée. Ce
-            massif offre une palette de panoramas époustouflants, où les sommets
-            se mêlent aux vallées verdoyantes, créant un tableau vivant de
-            beauté naturelle.
-            <br /> Partez à la découverte de ces sentiers sinueux qui serpentent
-            à travers des forêts denses et des prairies fleuries, chaque pas
-            vous rapprochant d'une faune et d'une flore d'une richesse inouïe.
-            Les falaises abruptes et les parois rocheuses attirent les
-            passionnés d'escalade, offrant des défis variés aux aventuriers en
-            quête de sensations fortes. Des crêtes des Corbières aux hauteurs
-            des Pyrénées, chaque montagne raconte une histoire, celle des hommes
-            qui les ont foulées et des traditions qui les entourent. Ici,
-            l'aventure et la tranquillité s'entrelacent, offrant un havre de
-            paix pour les randonneurs, les grimpeurs, les rêveurs et les
-            amoureux de la nature.
+            Située au pied des Pyrénées, la ville de Quillan, station verte de vacances, est une porte d’accès vers les richesses naturelles de l’Aude et des départements limitrophes.
+            <br /> Des crêtes des Corbières aux sommets pyrénéens, partez à la découverte d’une faune et une flore préservées. 
+            <br /> Que vous soyez féru de randonnée sportive, VTT, escalade, canyoning, ou simple amoureux de la nature, les sites qui s’offriront à vous sauront vous combler.
           </p>
         );
       case '/Abbayes':
